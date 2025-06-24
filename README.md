@@ -82,7 +82,7 @@ Recursive Integration System with advanced mathematical foundations.
 
 The calculator can generate UML diagrams to visualize mathematical operations:
 
-![Sample UML Diagram](docs/images/sample_uml.png)
+![Sample UML Diagram](docs/images/sample_uml.svg)
 
 *Note: Advanced UML diagram features are available in the Enterprise Edition.*
 
