@@ -16,14 +16,34 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
 
 # Virtual Environment
 venv/
 env/
 ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+pythonenv*
+.python-version
+.env*
 
 # IDE files
 .idea/
@@ -42,10 +62,31 @@ Thumbs.db
 
 # UML Calculator specific
 temp/
+output/
+logs/
 *.log
 *.csv
 *.json
+*.bak
+*.backup
+*.tmp
+*.temp
+*.out
 !sample_data/*.csv
 !sample_data/*.json
 !docs/images/*.png
 !docs/images/*.svg
+!docs/examples/*.json
+!docs/examples/*.csv
+
+# Private/Enterprise files that should never be committed
+*_private.*
+*_enterprise.*
+*_secret.*
+*_confidential.*
+private/
+enterprise/
+secrets/
+
+# Generated UML diagrams (except documentation examples)
+uml_output/
