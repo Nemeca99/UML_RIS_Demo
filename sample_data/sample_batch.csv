@@ -1,0 +1,9 @@
+operation,expression,a,b
+calc,2 + 3*5,,
+calc,3^2 - 4,,
+ris,,6,3
+ris,,10,5
+ris,,7,7
+calc,x^2 + 2*x - 3,,
+calc,sqrt(16),,
+ris,,0,5
