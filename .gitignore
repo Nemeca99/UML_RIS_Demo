@@ -42,10 +42,10 @@ Thumbs.db
 
 # UML Calculator specific
 temp/
-*.png
-*.svg
 *.log
 *.csv
 *.json
 !sample_data/*.csv
 !sample_data/*.json
+!docs/images/*.png
+!docs/images/*.svg
